@@ -1,13 +1,11 @@
 ---
 permalink: /
-title:
+title: "Welcome!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-# **Welcome!**
 
 I am a 3rd-year PhD student in Finance at Saïd Business School, University of Oxford. I hold a master’s degree in economics from Kyoto University and a bachelor’s degree in accounting from Tongji University.
 
