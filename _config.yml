@@ -12,7 +12,7 @@ site_theme               : "air" # The available themes options are "default", "
 title                    : "Mingze Ma"
 title_separator          : "-"
 name                     : "Mingze Ma"
-description              : "DPhil student in Finance"
+description              : "PhD student in Finance"
 url                      : https://mingzemasbs.github.io
 baseurl                  : ""
 repository               : "mingzemasbs/mingzemasbs.github.io"
