@@ -1,38 +1,129 @@
 ---
 layout: archive
 title: "Research"
-permalink: /research/
+permalink: /publications/
 author_profile: true
-redirect_from:
-  - /publications/
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<style>
+  .paper-entry {
+    margin-bottom: 1.6em;
+  }
 
-{% include base_path %}
+  .paper-title {
+    font-size: 1.05em;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+  }
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  .paper-authors {
+    margin-bottom: 0.25em;
+  }
 
+  .paper-status {
+    font-style: italic;
+    margin-bottom: 0.25em;
+  }
 
+  .paper-links a {
+    margin-right: 0.8em;
+  }
 
+  .paper-note {
+    margin-top: 0.25em;
+    font-size: 0.95em;
+  }
+</style>
+
+<h2>Journal Publications</h2>
+
+<div class="paper-entry">
+  <div class="paper-title">
+    Gendered performance evaluation in CEO turnover
+  </div>
+
+  <div class="paper-authors">
+    Mingze Ma
+  </div>
+
+  <div class="paper-status">
+    Journal of Corporate Finance, 77, 102302
+  </div>
+
+  <div class="paper-links">
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0929119922001456" target="_blank">Published version</a>
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4362875" target="_blank">SSRN</a>
+  </div>
+
+  <div class="paper-note">
+    Excellence in Research Award, Mizuho Securities Endowment, Kyoto University.
+  </div>
+</div>
+
+<h2>Working Papers</h2>
+
+<div class="paper-entry">
+  <div class="paper-title">
+    Endogenous technology adoption in a search economy
+  </div>
+
+  <div class="paper-authors">
+    Mingze Ma and <a href="https://seungecon.github.io/" target="_blank">Seung Joo Lee</a>
+  </div>
+
+  <div class="paper-links">
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6152727" target="_blank">SSRN</a>
+  </div>
+
+  <div class="paper-note">
+    Presentations: HKEA Biennial Conference, SBS FAME Seminar*, Federal Reserve Bank of New York*, JIE Summer School 2025, IDE School 2025.
+  </div>
+</div>
+
+<div class="paper-entry">
+  <div class="paper-title">
+    The travel of ideas in a multi-sector world
+  </div>
+
+  <div class="paper-authors">
+    Mingze Ma
+  </div>
+
+  <div class="paper-links">
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5082911" target="_blank">SSRN</a>
+  </div>
+
+  <div class="paper-note">
+    Presentations: RES 2025 Annual Conference, SBS FAME Seminar.
+  </div>
+</div>
+
+<div class="paper-entry">
+  <div class="paper-title">
+    Leveraging reputation? The misuse of low-cost activism
+  </div>
+
+  <div class="paper-authors">
+    Mingze Ma and <a href="https://www.wenchuan-zhao.com/" target="_blank">Wenchuan Zhao</a>
+  </div>
+
+  <div class="paper-links">
+    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4689164" target="_blank">SSRN</a>
+  </div>
+
+  <div class="paper-note">
+    Presentations: FMA 2024 European Conference*, SBS FAME Seminar*.
+  </div>
+</div>
+
+<h2>Work in Progress</h2>
+
+<div class="paper-entry">
+  <div class="paper-title">
+    Financial analyst labor market and price efficiency: A structural approach
+  </div>
+
+  <div class="paper-authors">
+    Mingze Ma and <a href="https://www.hongweimo.com/" target="_blank">Hongwei Mo</a>
+  </div>
+</div>
